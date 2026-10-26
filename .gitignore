@@ -1,0 +1,4 @@
+.ignore
+a.out
+*.pch
+*.o
