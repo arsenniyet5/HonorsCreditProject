@@ -1,6 +1,3 @@
-#ifndef LONGEST_COMMON_SUBSEQUENCE_H
-#define LONGEST_COMMON_SUBSEQUENCE_H
-
 #include <iostream>
 #include "LongestCommonSubsequence.h"
 
@@ -59,6 +56,4 @@ void LongestCommonSubsequence::solve(string s1, string s2) {
 	cout << "Expected Length: " << this->maxLen << endl;
 	cout << "Expected LCS String: " << "\"" << this->sequence << "\"" << endl; 
 }
-
-#endif
 
