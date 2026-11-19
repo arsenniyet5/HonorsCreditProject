@@ -2,8 +2,6 @@
 #define LONGEST_COMMON_SUBSEQUENCE_H
 
 #include <iostream>
-#include <vector>
-#include "ArrayList.h"
 
 using namespace std;
 
