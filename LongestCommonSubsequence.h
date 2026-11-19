@@ -2,6 +2,8 @@
 #define LONGEST_COMMON_SUBSEQUENCE_H
 
 #include <iostream>
+#include <string>
+#include <utility>
 
 using namespace std;
 
