@@ -4,7 +4,6 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "UnitTestFramework.h"
 #include "EditDistance.h"
 #include "LongestCommonSubsequence.h"
 
