@@ -12,10 +12,10 @@
  *        the generated CSV datasets (columns: id, parameter_value, s1, s2, expected).
  *
  * Build (from the Code folder):
- *   g++ -std=c++17 -O2 DatasetTests.cpp EditDistance.cpp LongestCommonSubsequence.cpp UnitTestFramework.cpp -o run_tests
+ *   g++ -std=c++17 -O2 DatasetTests.cpp EditDistance.cpp LongestCommonSubsequence.cpp UnitTestFramework.cpp -o run_tests.out
  * Run:
- *   ./run_tests              (reads ./datasets)
- *   ./run_tests path/to/dir  (reads another folder)
+ *   ./run_tests.out              (reads ./datasets)
+ *   ./run_tests.out path/to/dir  (reads another folder)
  */
 
 using namespace std;

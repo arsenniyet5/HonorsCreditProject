@@ -17,10 +17,13 @@ int LongestCommonSubsequence::getCellsAllocated() {
 pair<int,string> LongestCommonSubsequence::lcs(string s1, string s2) {
 	int n1 = s1.size();
 	int n2 = s2.size();
-
-	this->cellsAllocated = (n1+1) * (n2+1);
 	
 	vector<vector<int>> countArr(n1+1, vector<int>(n2+1, 0));
+
+	this->cellsAllocated = 0;
+	for(int i = 0; i <= n1; i++) {
+		this->cellsAllocated += countArr[i].size();
+	}
 
 	for(int i = 1; i <= n1; i++) {
 		for(int j = 1; j <= n2; j++) {
