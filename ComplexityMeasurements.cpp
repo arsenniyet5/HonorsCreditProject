@@ -181,10 +181,12 @@ int main(int argc, char* argv[]) {
 	measureEditDistance(dir, "ed_length");
 	measureEditDistance(dir, "ed_alphabet");
 	measureEditDistance(dir, "ed_similarity");
+	measureEditDistance(dir, "ed_shorter");
 
 	measureLcs(dir, "lcs_length");
 	measureLcs(dir, "lcs_alphabet");
 	measureLcs(dir, "lcs_similarity");
+	measureLcs(dir, "lcs_shorter");
 
 	return 0;
 }

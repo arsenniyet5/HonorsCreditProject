@@ -5,6 +5,9 @@ ed_alphabet.csv,expected,25,462,1420,1033.12,1114,351.38
 ed_length.csv,id,35,1,35,18.00,18,10.25
 ed_length.csv,parameter_value,35,100,6400,1814.29,800,2154.63
 ed_length.csv,expected,35,44,3029,855.51,377,1014.77
+ed_shorter.csv,id,30,1,30,15.50,15.5,8.80
+ed_shorter.csv,parameter_value,30,100,3200,1050.00,600,1101.33
+ed_shorter.csv,expected,30,1862,3100,2521.23,2609,493.54
 ed_similarity.csv,id,25,1,25,13.00,13,7.36
 ed_similarity.csv,parameter_value,25,0,100,50.00,50,36.08
 ed_similarity.csv,expected,25,0,945,603.56,756,367.91
@@ -14,6 +17,9 @@ lcs_alphabet.csv,expected,25,506,1298,857.16,812,287.54
 lcs_length.csv,id,30,1,30,15.50,15.5,8.80
 lcs_length.csv,parameter_value,30,100,3200,1050.00,600,1101.33
 lcs_length.csv,expected,30,60,2078,673.93,382.5,708.84
+lcs_shorter.csv,id,30,1,30,15.50,15.5,8.80
+lcs_shorter.csv,parameter_value,30,100,3200,1050.00,600,1101.33
+lcs_shorter.csv,expected,30,100,1937,785.80,589,662.06
 lcs_similarity.csv,id,25,1,25,13.00,13,7.36
 lcs_similarity.csv,parameter_value,25,0,100,50.00,50,36.08
 lcs_similarity.csv,expected,25,954,1600,1159.72,1032,248.77

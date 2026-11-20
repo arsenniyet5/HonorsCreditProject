@@ -124,10 +124,12 @@ int main(int argc, char* argv[]) {
 	testEditDistanceDataset(dir + "/ed_length.csv", 35);
 	testEditDistanceDataset(dir + "/ed_alphabet.csv", 25);
 	testEditDistanceDataset(dir + "/ed_similarity.csv", 25);
+	testEditDistanceDataset(dir + "/ed_shorter.csv", 30);
 
 	testLcsDataset(dir + "/lcs_length.csv", 30);
 	testLcsDataset(dir + "/lcs_alphabet.csv", 25);
 	testLcsDataset(dir + "/lcs_similarity.csv", 25);
+	testLcsDataset(dir + "/lcs_shorter.csv", 30);
 
 	print_tests_summary();
 	print_failed_tests();

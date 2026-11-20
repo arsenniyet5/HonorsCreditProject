@@ -3,7 +3,7 @@
 Descriptive statistics for every numeric field of every dataset CSV.
 
 Usage:
-    python3 dataset_statistics.py [dataset_dir]      (default: ./datasets)
+    python3 dataset_statistics.py [dataset_dir]      (default: this script's folder)
 
 Numeric fields are detected automatically (every value parses as a number);
 for these datasets they are: id, parameter_value, expected.
@@ -42,7 +42,8 @@ def describe(values: list[float]) -> dict:
 
 
 def main() -> None:
-    data_dir = sys.argv[1] if len(sys.argv) > 1 else "datasets"
+    data_dir = (sys.argv[1] if len(sys.argv) > 1
+                else os.path.dirname(os.path.abspath(__file__)))
     out_path = os.path.join(data_dir, "descriptive_statistics.csv")
     header = ["dataset", "field", "count", "min", "max", "mean", "median", "std"]
     rows = []
