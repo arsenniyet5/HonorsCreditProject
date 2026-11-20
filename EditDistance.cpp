@@ -6,6 +6,11 @@ using namespace std;
 
 EditDistance::EditDistance() {
 	this->minDist = 0;
+	this->cellsAllocated = 0;
+}
+
+int EditDistance::getCellsAllocated() {
+	return this->cellsAllocated;
 }
 
 int EditDistance::editDistance(string s1, string s2) {
@@ -24,6 +29,8 @@ int EditDistance::editDistance(string s1, string s2) {
 
 	vector<int> prev_row(n+1, 0);
 	vector<int> curr_row(n+1, 0);
+
+	this->cellsAllocated = 2 * (n+1);
 	
 	for(int i = 0; i <= n; i++) {
 		prev_row[i] = i;

@@ -7,12 +7,19 @@ using namespace std;
 LongestCommonSubsequence::LongestCommonSubsequence() {
 	this->maxLen = 0;
 	this->sequence = "";
+	this->cellsAllocated = 0;
+}
+
+int LongestCommonSubsequence::getCellsAllocated() {
+	return this->cellsAllocated;
 }
 
 pair<int,string> LongestCommonSubsequence::lcs(string s1, string s2) {
 	int n1 = s1.size();
 	int n2 = s2.size();
 
+	this->cellsAllocated = (n1+1) * (n2+1);
+	
 	vector<vector<int>> countArr(n1+1, vector<int>(n2+1, 0));
 
 	for(int i = 1; i <= n1; i++) {
