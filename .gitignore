@@ -3,3 +3,5 @@ a.out
 *.pch
 *.o
 *.out
+new_complexity_measurements.csv
+.exe
