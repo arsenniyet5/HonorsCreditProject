@@ -64,6 +64,6 @@ void LongestCommonSubsequence::solve(string s1, string s2) {
 	this->maxLen = res.first;
 	this->sequence = res.second;
 
-	cout << "Expected Length: " << this->maxLen << endl;
-	cout << "Expected LCS String: " << "\"" << this->sequence << "\"" << endl; 
+	cout << "LCS Length: " << this->maxLen << endl;
+	cout << "LCS String: " << "\"" << this->sequence << "\"" << endl; 
 }

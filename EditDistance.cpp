@@ -58,5 +58,5 @@ int EditDistance::editDistance(string s1, string s2) {
 void EditDistance::solve(string s1, string s2) {
 	this->minDist = editDistance(s1, s2);
 
-	cout << "Distance: " << this->minDist << endl;
+	cout << "Edit Distance: " << this->minDist << endl;
 }
