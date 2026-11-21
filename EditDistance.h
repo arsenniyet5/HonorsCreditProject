@@ -19,18 +19,18 @@ private:
 	/** @brief The minimum edit distance found */
 	int minDist;
 
-	/** @brief The number of cells allocated in the DP table */
+	/** @brief The number of cells allocated in the two DP rows */
 	int cellsAllocated;
 
 public:
 	/** 
 	 * @brief Constructor for the EditDistance class. 
-	*/
+	 */
 	EditDistance();
 
 	/**
-	 * @brief Get the number of cells allocated in the DP table.
-	 * @return The number of cells allocated in the DP table.
+	 * @brief Get the number of cells allocated in the two DP rows.
+	 * @return The number of cells allocated in the DP rows.
 	 */
 	int getCellsAllocated();
 
