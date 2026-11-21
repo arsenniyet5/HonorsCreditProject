@@ -11,11 +11,8 @@
  * @brief Unit tests that run EditDistance and LongestCommonSubsequence against
  *        the generated CSV datasets (columns: id, parameter_value, s1, s2, expected).
  *
- * Build (from the Code folder):
- *   g++ -std=c++17 -O2 -I. tests/DatasetTests.cpp EditDistance.cpp LongestCommonSubsequence.cpp tests/UnitTestFramework.cpp -o run_tests.out
- * Run:
- *   ./run_tests.out              (reads ./datasets)
- *   ./run_tests.out path/to/dir  (reads another folder)
+ * @author Arsen Niyetkaliyev
+ * @date 2026-11-19
  */
 
 using namespace std;

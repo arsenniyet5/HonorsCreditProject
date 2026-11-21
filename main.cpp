@@ -2,6 +2,13 @@
 #include "LongestCommonSubsequence.h"
 #include "EditDistance.h"
 
+/**
+ * @file main.cpp
+ * @brief Performs manual testing of the EditDistance and LongestCommonSubsequence class implementations.
+ * @author Arsen Niyetkaliyev
+ * @date 2026-11-21
+ */
+
 using namespace std;
 
 void manualTest() {

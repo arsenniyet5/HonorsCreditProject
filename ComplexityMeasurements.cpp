@@ -18,12 +18,8 @@
  * Output:  one CSV line per string pair, printed to stdout
  *          (columns: dataset, id, parameter_value, len_s1, len_s2, time_ms, cells).
  *          Errors are printed to stderr so they do not mix with the CSV.
- *
- * Build (from the Code folder):
- *   g++ -std=c++17 -O2 ComplexityMeasurements.cpp EditDistance.cpp LongestCommonSubsequence.cpp -o complexities.out
- * Run:
- *   ./complexities.out > complexity_measurements.csv             (reads ./datasets)
- *   ./complexities.out path/to/dir > complexity_measurements.csv (reads another folder)
+ * @author Arsen Niyetkaliyev
+ * @date 2026-11-20
  */
 
 

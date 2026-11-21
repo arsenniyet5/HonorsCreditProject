@@ -9,7 +9,7 @@
  * @file UnitTestFramework.h
  * @brief Declaration of a macros based unit test framework for C++.
  * @author Arsen Niyetkaliyev
- * @date 2026-11-14
+ * @date 2026-11-20
  */
 
 /** @brief Maximum number of tests that can be run. */

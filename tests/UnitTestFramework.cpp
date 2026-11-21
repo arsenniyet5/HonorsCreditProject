@@ -4,7 +4,7 @@
  * @file UnitTestFramework.cpp
  * @brief Implementation of the macro based unit test framework used for running and logging tests.
  * @author Arsen Niyetkaliyev
- * @date 2026-11-14
+ * @date 2026-11-20
  */
 
 int test_failures_count = 0;
